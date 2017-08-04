@@ -12,7 +12,7 @@ class Main extends PluginBase implements Listener{
 
  public function onEnable(){
   $this->getServer()->getPluginManager()->registerEvents($this, $this);
-  $this->getServer()->getLogger()->info(TF::GREEN."FlowerTitle has been enabled");
+  $this->getLogger()->info(TF::GREEN."FlowerTitle has been enabled");
    }
    
    public function onHand(DataPackReceiveEvent $event){
