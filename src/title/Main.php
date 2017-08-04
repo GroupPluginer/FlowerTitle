@@ -8,6 +8,8 @@ use pocketmine\event\Listener;
 use pocketmine\item\Item;
 use pocketmine\utils\TextFormat as TF;
 
+class Main extends PluginBase implements Listener{
+
  public function onEnable(){
   $this->getServer()->getPluginManager()->registerEvent($this, $this);
   $this->getServer()->getLogger()->info(TF::GREEN."FlowerTitle has been enabled");
